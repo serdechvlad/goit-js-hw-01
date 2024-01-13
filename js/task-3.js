@@ -1,9 +1,9 @@
 'use strict';
 function getElementWidth(content, padding, border) {
-const massage =
+const width =
 Number.parseFloat(content) +
 (Number.parseFloat(padding) + Number.parseFloat(border)) * 2;
-return massage;
+return width;
 }
 
 console.log(getElementWidth('50px', '8px', '4px')); // 74
